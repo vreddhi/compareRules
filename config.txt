@@ -1,0 +1,23 @@
+[DEFAULT]
+
+[CREDENTIALS]
+client_token = akab-o24twfejrdhyyiwo-m6jn27qxibmp72cr
+client_secret = i/OiO5N1FUs/ZP0EhfSprjnRRggnSK0iwOksVGmAFG0=
+access_token = akab-vs66tet4vlajtvq3-4pb5skc3dusu7axu
+access_url = https://akab-l5hhaloblxofu27k-phc7p37cztzka4jz.luna.akamaiapis.net
+
+
+[DEV_PROPERTY]
+configuration_name = app-ssl.cloud-test.bestbuy.com
+version = 67
+
+[QA_PROPERTY]
+configuration_name = app-ssl.stage.bestbuy.com
+version = 63
+
+[PROD_PROPERTY]
+configuration_name = app-ssl.bestbuy.com
+version = 54
+
+[OTHERS]
+filename = comparedData.html

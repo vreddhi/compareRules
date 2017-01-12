@@ -1,0 +1,660 @@
+
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+        
+        <div class="container col-sm-4">
+        <table class="table">
+    
+        <thead>
+          <tr>
+            <th>app-ssl.cloud-test.bestbuy.com</th>
+          </tr>
+        </thead>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>1. User Authorization</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>2. Remove Auth Header</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>3. Content Compression</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>4. Static Content</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>5. Downstream Cacheability - Non cacheable</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>6. /si* - origin setting</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>7. /si* - Allowed Methods</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>8. /si_test* - origin setting</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>9. /si_test* - Allowed Methods</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>10. /si_test* - ESI</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>11. /si/gs/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value ct-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value ct-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>12. /si/nc/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value ct-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value ct-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>13. Send 404 for URLs except /si* and /token*</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>14. Request Id to origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>15. Debug - Break Connection</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>16. Hide X-Session-Info</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>17. UID/SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> UID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>18. VP</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>19. 404 for awake config health-check heartbeat </td>
+                </tr>
+            </tbody>
+        
+        </table>
+        </div>
+    
+        <div class="container col-sm-4">
+        <table class="table">
+    
+        <thead>
+          <tr>
+            <th>app-ssl.stage.bestbuy.com</th>
+          </tr>
+        </thead>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>1. User Authorization</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>2. Remove Auth Header</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>3. Content Compression</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>4. Static Content</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>5. Dynamic Content</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>6. /si* - origin setting</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> /si/d/*</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> /si/d/* --> No Cookie or Empty value</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> /si/d/* --> Cookie value s-sid-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>7. SureRoute Logic</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>SureRoute Logic --> Cloud</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>SureRoute Logic --> PLS</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>8. /si* - Allowed Methods</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>9. /si/gs/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value s-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value s-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>10. /si/nc/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value s-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value s-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>11. Send 404 for URLs except /si* and /token*</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>Send 404 for URLs except /si* and /token* --> SRTO object - Negative match</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>12. Request Id to origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>13. Artificially Break Connection</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>14. Hide X-Session-Info</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>15. Pass Cookie to upstream</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>16. UID/SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> UID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>17. VP</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>18. 404 for awake config health-check heartbeat </td>
+                </tr>
+            </tbody>
+        
+        </table>
+        </div>
+    
+        <div class="container col-sm-4">
+        <table class="table">
+    
+        <thead>
+          <tr>
+            <th>app-ssl.bestbuy.com</th>
+          </tr>
+        </thead>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>1. Content Compression</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>2. Static Content</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>3. Downstream Cacheability - Non cacheable</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>4. /si* - origin setting</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> /si* - West origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> /si* - East origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> no bby_si_lb cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> no bby_si_lb cookie --> QRP West logic</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> no bby_si_lb cookie --> QRP East logic</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> no bby_si_lb cookie --> Send cookie to origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> Route to West origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si* - origin setting --> Route to East origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>5. /si/d/* Origin Setting</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/d/* Origin Setting --> No Cookie/Blank/Junk Value</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/d/* Origin Setting --> Cookie value p-sid-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/d/* Origin Setting --> Cookie value p-sid-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>6. /si/gs/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value p-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/gs/* Routing --> Cookie value p-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>7. /si/nc/* Routing</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> WebDav for Delete</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> No Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value p-sigs-a</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>/si/nc/* Routing --> Cookie value p-sigs-b</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>8. SureRoute Logic</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>SureRoute Logic --> Cloud</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>SureRoute Logic --> PLS</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>9. Send 404 for URLs except /si*</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>Send 404 for URLs except /si* --> SRTO Object - Negative match</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>10. Request ID to origin</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>11. Hide X-Session-Info</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>12. Pass Cookie to upstream</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>13. UID/SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> UID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="small">
+                <tr class="active">
+                    <td>UID/SID Cookie --> SID Cookie</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>14. VP</td>
+                </tr>
+            </tbody>
+        
+            <tbody class="lead">
+                <tr class="info">
+                    <td>15. 404 for awake config health-check heartbeat </td>
+                </tr>
+            </tbody>
+        
+        </table>
+        </div>
+    
+        </body>
+    
