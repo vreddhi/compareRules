@@ -1,0 +1,23 @@
+[DEFAULT]
+
+[CREDENTIALS]
+client_token = xxxxxxxxxx
+client_secret = xxxxxxxxxx
+access_token = xxxxxxxxxx
+access_url = xxxxxxxxxx
+
+
+[DEV_PROPERTY]
+configuration_name = app-ssl.bestbuy.com
+version = 60
+
+[QA_PROPERTY]
+configuration_name = app-ssl.stage.bestbuy.com
+version = 67
+
+[PROD_PROPERTY]
+configuration_name = app-ssl.cloud-test.bestbuy.com
+version = 71
+
+[OTHERS]
+filename = comparedData.html
